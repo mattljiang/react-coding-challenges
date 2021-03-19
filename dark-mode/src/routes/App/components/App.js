@@ -6,9 +6,17 @@ import '../styles/_app.scss';
 function App() {
   //TODO: create state to store current theme
   const [theme, setTheme] = useState('light');
+  
+  //TODO: toggle dark-mode class on html tag. this should run every time state changes
+  const toggleHtmlClass = (currentTheme) => {
+    const htmlClasses = document.querySelector('html').classList;
+    currentTheme === 'light' ? htmlClasses.remove('dark-mode') : htmlClasses.add('dark-mode');
+  }
+
+  toggleHtmlClass(theme);
 
   return (
-    <div className={theme === 'light' ? "app" : "app dark-mode"}>
+    <div className="app">
       <div className="level">
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
