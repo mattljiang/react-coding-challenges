@@ -8,7 +8,7 @@ function App() {
   const [theme, setTheme] = useState('light');
 
   return (
-    <div className="app">
+    <div className={theme === 'light' ? "app" : "app dark-mode"}>
       <div className="level">
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
