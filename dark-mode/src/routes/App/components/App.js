@@ -16,7 +16,7 @@ function App() {
 
         {/* --The button that should toggle dark mode-- */}
         <button className="app__dark-mode-btn icon level-right" onClick = {() => theme === 'light' ? setTheme('dark') : setTheme('light')}>
-          <FontAwesomeIcon icon={theme === 'light' ? faMoon : faSun} />
+          <FontAwesomeIcon icon={theme === 'light' ? faMoon : faSun} color={theme === 'light' ? '#000000' : '#FFA500'}/>
         </button>
 
       </div>
