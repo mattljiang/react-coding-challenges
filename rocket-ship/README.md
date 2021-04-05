@@ -1,12 +1,28 @@
-# Rocket Ship Coding Challenge 🚀
+# Rocket Ship Coding Challenge 🚀 &nbsp; ![easy](https://img.shields.io/badge/-Easy-brightgreen) ![time](https://img.shields.io/badge/%E2%8F%B0-10m-blue) 
 
-### Difficulty: Easy | Time required: < 10 minutes
+&nbsp;
+## Goals / Outcomes ✨
+- To test basic understanding of render lifecycles in both functional and class components
 
-# Requirements
+&nbsp;
+## Pre-requisites ✅
+None
+
+&nbsp;
+## Requirements
 - Stop the Class rocket from taking off
 - Stop the Functional rocket from taking off
 
-# Think about
+&nbsp;
+## Think about 💡
 - How we prevent components from re-rendering
 
+&nbsp;
+## What's Already Been Done 🏁
+- Functional and class rocket components
+- UI/UX and animation
+
+&nbsp;
+## Screenshots 🌄
+&nbsp;
 ![screenshot](https://puu.sh/Fq16F/1ad6edff1b.png)
